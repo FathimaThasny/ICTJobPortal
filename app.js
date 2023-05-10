@@ -600,9 +600,9 @@ app.post('/api/viewalumniresponseform', async(req,res)=>{
 })
 
 //---------Server port-----------
-app.listen(1000,()=>{
+app.listen(3256,()=>{
 
-    console.log("Server Running at 1000")
+    console.log("Server Running at 3256")
 })
 
 app.get('/*', function(req, res) {
